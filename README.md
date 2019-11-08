@@ -40,11 +40,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+SQL is the syntax we use to query, insert, remove, or modify entries within a database. Relational databases are a table or set of tables that are separate but related ( like orders, customers, order dates)
+
+
 - [ ] Why do tables need a `primary key`?
+
+
+primary key identifies each entry. without it, we wouldnt be able to perform any CRUD operations whicvh require an id
+
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+
+a foreign key
+
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+An intermediary table that links the two. I.e. recipes can have many ingredients and ingredients can be used in many recipes. So an intermediary table could provide the foreign key for each plus any relevant new info (like amount to use in each recipe).
+
 
 ## Minimum Viable Product
 
